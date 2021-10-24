@@ -1,5 +1,5 @@
 # Functional-ARMA-Process
-Simulation of Functional Autoregressive Moving Average (FARMA) processes through a basis expansion on a tensor product basis system.
+Simulation of Functional Autoregressive Moving Average (FARMA) processes for bivariate functions through a basis expansion on a tensor product basis system.
 
 Here is reported a realization of a FAR(1) process, simulate using the code in this repository:
 
