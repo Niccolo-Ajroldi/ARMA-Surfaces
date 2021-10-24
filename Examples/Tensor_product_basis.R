@@ -1,6 +1,6 @@
 
 #' 
-#' Build a tensor product basi system and plot some functions.
+#' Build a tensor product basis system and plot some basis functions.
 #' 
 
 rm(list=ls())

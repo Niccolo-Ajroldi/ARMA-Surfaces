@@ -4,8 +4,8 @@
 #' 
 
 rm(list=ls())
-setwd("D:/Poli/TESI/Code/Time-Series-CP/FAR_2D/Simulation")
-source("D:/Poli/TESI/Code/Time-Series-CP/FAR_2D/Simulation/simulate_FARMA.R")
+setwd("D:/Poli/TESI/Code/Functional-ARMA-Process")
+source("Functions/simulate_FARMA.R")
 
 # FARMA simulation -------------------------------------------------------------
 
@@ -68,7 +68,7 @@ Xt = out$Xt
 
 ## Save GIF ----
 
-source('D:/Poli/TESI/Code/Time-Series-CP/FAR_2D/my_save_GIF.R')
+source('Functions/my_save_GIF.R')
 my_save_GIF(Xt, x1.grid, x2.grid, filename="FARMA")
 
 
