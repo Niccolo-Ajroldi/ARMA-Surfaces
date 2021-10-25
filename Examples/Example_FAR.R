@@ -27,6 +27,7 @@ x2.grid = seq(from=0, to=1, length=101)
 
 # number of samples
 sample_size = 19
+burnin = 20
 
 # d = dimension of the underlying VAR(1)
 d=nbasis.sim 
